@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #f1f1f1;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+hr{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* header */
+.expand {
+    background-color: white;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 55px;
+}
+header nav i{
+    color: white;
+    font-size: 45px;
+    background-color: rgb(32, 172, 228);
+    border-radius: 50%;
+}
+header nav span{
+    FONT-SIZE: 40PX;
+    FONT-FAMILY: cursive;
+    color: rgb(32, 172, 228);
+}
+/* header */
+
+/* product */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px 30px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 450px;
+    background-color: rgb(37, 228, 235);
+}
+main h2{
+    padding: 10px;
+    color:rgb(179, 40, 15);
+    text-transform: capitalize;
+}
+main img{
+    width: 450px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(32, 172, 228);
+}
+main p{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+main span{
+    margin-top: 15px;
+    color: rgb(173, 28, 28);
+    font-size: large;
+    font-weight: bold;
+}
+main a{
+    border: 1px solid rgb(32, 172, 228);
+    padding: 5px 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    margin-top: 15px;
+    color: rgb(10, 74, 77);
+    background-color: rgb(183, 194, 191);
+}
+main a:hover{
+    color: white;
+    background-color: rgb(17, 105, 32);
+}
+/* product */
